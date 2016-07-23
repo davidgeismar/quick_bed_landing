@@ -14,4 +14,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require autofocus_error.js
+//= require scroll_down_to_form.js
+//= require scroll_to_story.js
 //= require_tree .
