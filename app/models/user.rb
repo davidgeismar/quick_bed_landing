@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  after_create :send_email_to_admin
+
   extend Enumerize
 
   enumerize :organisation_type, in: [:hotel, :association]
@@ -9,5 +11,9 @@ class User < ActiveRecord::Base
     with: /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i,
     message: 'Veuillez renseigner un email valide'
   }
+private
 
+ def send_email_to_admin
+    UserMailer.new_subscription(self).deliver_now
+  end
 end
