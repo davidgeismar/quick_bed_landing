@@ -1,16 +1,81 @@
+
+.has-error > label {
+  color: #1436CC
+}
+
 .alert-info {
   position: absolute;
   width: 100%;
 }
+.helper {
+  background-color: #6C6D70;
+  color: white;
+  padding: 15px;
+}
+.base-logo {
+  width: 500px;
+  margin-top: -200px;
+}
 
+.feature-helper{
+  background-color:#1436CC;
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%);
+  color: white;
+}
+.feature-host{
+  background-color:#1436CC;
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%);
+  color: white;
+}
+.subscribe {
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%);
+  color: white;
+}
+.host {
+  background-color: #6C6D70;
+  color: white;
+  padding: 15px;
+}
 .background-cover {
+  background-color: #1436CC;
   background-position: center;
-  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), image-url("hands.jpg");
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%);
   background-size: cover;
   text-align: center;
   color: white;
   min-height: 661px;
 }
+.simplify{
+  margin-left: 30px;
+}
+.fa-cog{
+  margin-top: 11px;
+}
+
+.btn-success {
+  background-color: #FF3D00;
+  border: #FF3D00;
+}
+
+.adjust {
+  margin-top: -10px;
+}
+.btn-success:hover {
+  background-color: #FF3D00;
+}
+.btn-primary {
+  background-color: #1436CC;
+  border: #1436CC;
+}
+// .card-img{height: 500px}
+.helping {
+  margin: 20px
+}
+.functionnality_desc {
+  margin-top: 25%;
+  margin-bottom: 40%;
+}
+
 
 .quickbed {
   padding-top: 150px;
@@ -26,6 +91,7 @@
 
 .punchline {
   font-size: 2em;
+  margin-top: -165px;
 }
 
 .option-title {
@@ -34,4 +100,16 @@
 
 .options {
   margin-top: 30px;
+}
+
+
+#story {
+  background-image: linear-gradient(135deg, rgba(0,0,0,-0.2) 0%, rgba(0,0,0,-0.8) 50%);
+  background-color: #FF3D00;
+  color: white;
+  padding: 50px;
+}
+
+.fa {
+  font-size:200px;
 }
