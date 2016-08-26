@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
 
   enumerize :organisation_type, in: [:hotel, :association]
 
+  validates :organisation_type, presence: {message: 'Veuillez choisir un type d\'organisation'}
   validates :first_name,  presence: { message: 'Veuillez remplir votre prénom' }
   validates :last_name,   presence: { message: 'Veuillez remplir votre nom' }
   validates :email,presence: true,  format: {
