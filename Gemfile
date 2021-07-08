@@ -45,7 +45,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'byebug'
-  gem "letter_opener"
+  gem "letter_opener", ">= 1.4.1"
 end
 
 group :development do
